@@ -234,3 +234,200 @@
 .courses__bottom > a:hover{
     color: #0d369f;
 }
+/*********** SERVICES ************/
+.services .main {
+    background-image: url(/image/bg3.jpg) ;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .services .item {
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ } 
+ .feature-gd {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+ }
+ .services .item .icon {
+    font-size: 21px;
+    color: #0d369f;
+    background-color: #e9edf6;
+    width: 60px;
+    height: 60px;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 10px;
+ } 
+/******************** NUMBER ******************/
+.number .title-main {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+   
+    
+}
+.number .title-main{
+    position: relative;
+    
+ }
+ .number .title-main::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 550px;
+    border-bottom: 3px solid rgb(167, 167, 174);
+    width: 5%;
+   
+ }
+ .number .title-small{
+    position: relative;
+ }
+ .number .title-small::before{
+    content: '';
+    position: absolute;
+    top: -9px;
+    left: 571px;
+    border-bottom: 2px solid rgb(167, 167, 174);
+    width: 5%;
+ }
+.number .title-main span {
+    color: #ff6e65;
+}
+.number .stats .item-stat {
+    font-size: 46px;
+    font-weight: 600;
+}
+.number .stats .num {
+    border-right: 1px solid #cecece;
+}
+
+/****************** FEEDBACK ********************/
+.feedback .title-main {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+   
+    
+}
+.feedback .title-main span {
+    color: #ff6e65;
+}
+.feedback .title-main{
+    position: relative;
+    
+ }
+ .feedback .title-main::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 550px;
+    border-bottom: 3px solid rgb(167, 167, 174);
+    width: 5%;
+   
+ }
+ .feedback .content{
+    position: relative;
+ }
+ .feedback .content::before{
+    content: '';
+    position: absolute;
+    top: -89px;
+    left: 583px;
+    border-bottom: 2px solid rgb(167, 167, 174);
+    width: 5%;
+ }
+
+ .feedback .grid{
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px black;
+    box-shadow: 0 10px 50px #dadae0;
+ }
+.feedback .sub span {
+    font-size: 40px;
+    color: #ff6e65;
+}
+ .feedback .person .img img {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+ }
+ .feedback .review {
+    line-height: 10px;
+    margin-top: 5px;
+ }
+ .feedback .review h5 {
+    font-weight: 600;
+    line-height: 16px;
+ }
+ .feedback .review p {
+    font-size: 13px;
+    color: #707070;
+ }
+
+ /**************************** TEACHER ********************/
+ .teacher .teacher-item {
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px black;
+    box-shadow: 0 10px 50px #dadae0;
+ }
+
+ .teacher .teacher-item .grid img {
+    padding: 6px;
+    border-radius: 12px;
+ }
+.teacher .team-bottom a {
+    text-decoration: none;
+    color: black;
+}
+
+.teacher .teacher-item .grid img {
+    position: relative;
+}
+.teacher .teacher-item .social{
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 230px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+  }
+.teacher .teacher-item .social span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background-color: white;
+  font-size: 12px;
+}
+.teacher .teacher-item .grid:hover .social {
+    transform: translateY(-30px);
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  /********************* ABOUT **************/
+.about .container .des {
+    font-weight: 500;
+    line-height: 1.2;
+}  
+.about .btn {
+    border-radius: 5px;
+    color: white;
+    
+}
+.about .btn:hover {
+    background-color: #ff6e65;
+}
