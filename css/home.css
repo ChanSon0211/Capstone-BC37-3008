@@ -1,0 +1,236 @@
+/* ******** CAROUSEL ********/
+.carousel__top{
+    position: relative;
+}
+.carousel__overlay{
+    background-size: cover;
+    background-position: top center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 3em 0;
+}
+.carousel__overlay {
+    background-image: url(../images/banner2.jpg);
+}
+.carousel__overlay.carousel__img2{
+    background-image: url(../images/banner3.jpg);
+  
+}
+.carousel__tile h5{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+.carousel__tile{
+    width: 50%;
+}
+.carousel__tile .btn{
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #060606;
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: all .5s;
+}
+.carousel__tile .btn:hover{
+    background: #ff6e65;
+    color: #fff;
+}
+.carousel__tile .btn i{
+    vertical-align: middle;
+}
+.carousel .owl-theme .owl-dots{
+    position: absolute;
+    right: 24px;
+    bottom: 120px;
+    background: none;
+}
+.carousel .owl-theme .owl-dots button{
+    display: block;
+}
+.carousel .owl-theme .owl-dots .owl-dot.active span, .carousel .owl-theme .owl-dots .owl-dot:hover span{
+    background: #ff6e65;
+}
+.carousel .owl-theme .owl-dots .owl-dot span{
+    background: #fff;
+    transition: all .5s;
+    width: 12px;
+    height: 12px;
+    margin: 5px 2px;
+}
+.carousel__bottomItem i{
+    font-size: 45px;
+    color: #fff;
+}
+
+.carousel__bottomItem{
+    padding: 50px 35px;
+    border-radius: 8px;
+}
+.carousel__bottomItem a{
+    font-size: 24px;
+    margin-top: 25px;
+    display: block;
+    font-weight: 600;
+    transition: all .4s;
+}
+.carousel__bottomItem h4:hover a{
+    color: #060606;
+}
+.carousel__bottom{
+    margin-top: -4em;
+    z-index: 100;
+    position: relative;
+}
+.carousel__color1{
+    background-color: #037ef3;
+}
+.carousel__color2{
+    background-color: #ffc949;
+}
+.carousel__color3{
+    background-color: #ff4f81;
+}
+.carousel__color4{
+    background-color: #1ee697;
+}
+
+/******** WELCOME **********/
+
+.welcome__item i{
+    color: #0d369f;
+    font-size: 30px;
+    background: rgb(13 54 159 / 9%);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+.welcome__item a{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #060606;
+}
+.welcome__item a:hover{
+    color: #ff4f81;
+}
+.welcome__item p{
+    margin-top: 15px;
+}
+
+/*********** COURSES ***********/
+
+.courses{
+    background-color: #f8f9ff;
+}
+.courses__thumb img{
+    display: block;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.courses__details{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    right: 25px;
+    bottom: -12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.courses__price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.courses__item .meta__list a{
+    display: inline-block;
+    background: #1DC295;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+.courses__item .meta__list a:hover{
+    color: #fff;
+}
+.courses__item .meta__list a:first-child{
+    background: #FFA100;
+}
+.courses__item .meta__list a:nth-child(3){
+    background-color: #037ef3;
+}
+.courses__price h6{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ff6e65;
+    box-shadow: 0px 8px 20px rgb(241 77 93 / 20%);
+}
+.courses__content{
+    padding: 20px;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+}
+.courses__item{
+    transition: all .5s;
+}
+.courses__item:hover{
+    box-shadow: 0px 15px 30px rgb(29 23 77 / 8%);
+}
+
+.courses__top ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses__top li{
+    list-style: none;
+    color: #060606;
+}
+.courses__top li i{
+    color: #ff6e65;
+}
+.courses__body h4 a{
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    color: #060606;
+    transition: all .4s;
+}
+.courses__body h4:hover a{
+    color: #ff6e65;
+}
+
+.courses__bottom{
+    border-top: 1px solid #eee;
+}
+.courses__bottom .rate__list i{
+    color: #ffc949;
+    font-size: 15px;
+}
+.courses__bottom > a{
+   color: #ff6e65; 
+   font-size: 14px;
+   font-weight: 600;
+   transition: all .4s;
+}
+.courses__bottom > a:hover{
+    color: #0d369f;
+}
