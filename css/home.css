@@ -236,10 +236,11 @@
 }
 /*********** SERVICES ************/
 .services .main {
-    background-image: url(/image/bg3.jpg) ;
+    background-image: url(../images/bg3.jpg) ;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
 }
  .services .item {
 
@@ -411,7 +412,7 @@
   background-color: white;
   font-size: 12px;
 }
-.teacher .teacher-item .grid:hover .social {
+.teacher .teacher-item .grid:hover .social{
     transform: translateY(-30px);
     opacity: 1;
     visibility: visible;
@@ -426,8 +427,12 @@
 .about .btn {
     border-radius: 5px;
     color: white;
-    
+    background-color: #0d369f;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 30px;
 }
+
 .about .btn:hover {
     background-color: #ff6e65;
 }
