@@ -1,0 +1,23 @@
+.contact .details .icon span {
+    color: #ff6e65;
+}
+.banner {
+    background: url(../images/bg4.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.banner .link {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 13px;
+    
+}
+.banner .link a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+.banner .link-sm {
+    color: #d4d4d4;
+}
