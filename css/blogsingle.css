@@ -1,0 +1,123 @@
+
+.single-blog .bg img {
+    border-radius: 10px;
+}
+.single-blog .paragraph i {
+    font-size: 13px;
+}
+.single-blog .paragraph h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.single-blog .column .box13 img {
+    border-radius: 10px;
+}
+
+.single-blog p {
+    margin: 15px 0 30px;
+}
+.single-blog .previous {
+    text-align: left;
+}
+.comments img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.single-blog .bod-2 {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    padding-top: 1.5rem;
+}
+.single-blog .bod-3 {
+    border: none;
+    border-top: 1px solid var(--border-color-light);
+    padding-top: 1.5rem;
+}
+.comments .bod-1 {
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.comments .bod-3 {
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.addinfo .row {
+margin-bottom: 30px;
+}
+.addinfo .btn {
+    background-color: #ff6e65;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.addinfo .btn:hover {
+    background-color: #3f51b5;
+}
+
+
+
+.single-blog .buttons-singles a:hover {
+    color: var(--primary-color);
+}
+
+.d-grid.grid-columns {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.blog-search .searchbtn {
+background-color: #0d369f;
+color: white;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+}
+.blog-search .form-control {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    }
+.categories {
+    border: 2px solid #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.categories .title {
+ font-size: 22px;
+ margin-bottom: 20px;
+}
+.popular {
+    border: 2px solid #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+}
+.popular .title{
+font-size: 22px;
+margin-bottom: 20px;
+}
+.popular img {
+    border-radius: 15px;
+}
+.tags {
+    border: 2px solid #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tags a {
+border: 2px solid #eeeeee;
+padding: 0 15px;
+margin-right:20px;
+border-radius: 16px;
+margin-top: 10px;
+}
+.tags abc {
+    margin-bottom: 100px;
+}
