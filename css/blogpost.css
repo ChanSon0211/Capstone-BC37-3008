@@ -5,13 +5,13 @@
     text-decoration: none;
 }
 a {
-  color: var(--font-color);
+  color: #877087;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
@@ -244,6 +244,7 @@ p.white {
   color: var(--text-color);
 }
 
+
 .blog a.action {
   border: none;
   color: #000000;
@@ -374,7 +375,7 @@ p.white {
 }
 
 ul.blog-author-date li i {
-  color: var(--secondary-color);
+  color: #ff6e65;
 }
 
 .blog audio {
@@ -609,8 +610,8 @@ ul.blog-author-date li i {
 }
 
 .blog ul.blog-author-date li.author a {
+  color: #ff6e65;
   font-weight: 600;
-  color: var(--secondary-color);
 }
 
 .blog .img-circle {
@@ -638,6 +639,14 @@ ul.blog-author-date li i {
 
 .blog .btn-reply {
   padding: 12px 40px;
+}
+.content-blog {
+  margin-left: 10px;
+}
+.categories {
+  border: 2px solid #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1080px) {
