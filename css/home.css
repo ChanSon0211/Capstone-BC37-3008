@@ -375,50 +375,74 @@
  }
 
  /**************************** TEACHER ********************/
- .teacher .teacher-item {
-    padding: 25px;
-    border-radius: 15px;
-    border: 1px black;
-    box-shadow: 0 10px 50px #dadae0;
- }
-
- .teacher .teacher-item .grid img {
-    padding: 6px;
-    border-radius: 12px;
- }
-.teacher .team-bottom a {
-    text-decoration: none;
-    color: black;
+ .teacher .container .title-main h3 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
 }
-
-.teacher .teacher-item .grid img {
+.teacher .container{
+    margin-bottom: 50px;
+}
+.teacher .container .title-main span {
+    color: #ff6e65;
+}
+.teacher-item{
+    padding: 10px;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    background: #fff;
+    border-radius: 8px;
+}
+.teacher .social{
     position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
-.teacher .teacher-item .social{
+.teacher .social img{
     width: 100%;
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 230px;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s;
-  }
-.teacher .teacher-item .social span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 100%;
-  background-color: white;
-  font-size: 12px;
+    border-radius: 8px 8px 0 0;
 }
-.teacher .teacher-item .grid:hover .social{
-    transform: translateY(-30px);
-    opacity: 1;
-    visibility: visible;
-  }
 
+.sminfo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -227px;
+    margin: 0;
+    background: rgb(8 8 8 / 29%);
+    padding: 20px 0;
+    transition: all .5s;
+}
+.teacher-item:hover .sminfo{
+    bottom: 0;
+}
+.sminfo a{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    background: #FFF;
+    display: inline-block;
+    border-radius: 50%;
+}
+.sminfo a i{
+    color: #0d369f;
+    font-size: 14px;
+}
+.sminfo a:hover{
+    opacity: 0.8;
+}
+.teacher .people h5 a{
+    color: #060606;
+    font-weight: 600;
+    transition: all .5s;
+}
+.teacher .people h5:hover a{
+    color: #ff6e65;
+}
+.teacher .people small{
+    font-weight: 400;
+    font-size: 80%;
+    color: #707070;
+}
 
   /********************* ABOUT **************/
 .about .container .des {

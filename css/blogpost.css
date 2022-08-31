@@ -761,3 +761,11 @@ ul.blog-author-date li i {
   padding-left: 1.5rem;
 }
 
+.content-blog {
+  margin-left: 10px;
+}
+.categories {
+  border: 2px solid #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+}
