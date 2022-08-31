@@ -1,10 +1,36 @@
 
-
+.banner {
+    background: url(../images/bg4.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.banner .link {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 13px;
+    
+}
+.banner .link a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+.banner .link-sm {
+    color: #d4d4d4;
+}
 .single-blog .bg img {
     border-radius: 10px;
 }
 .single-blog .paragraph i {
     font-size: 13px;
+}
+.single-blog .author a{
+    color: #ff6e65;
+    font-weight: 600;
+}
+.single-blog .under i{
+    color: #ff6e65;
 }
 .single-blog .paragraph h3 {
     font-size: 30px;
@@ -66,15 +92,45 @@ margin-bottom: 30px;
 
 
 
-.single-blog .buttons-singles a:hover {
-    color: var(--primary-color);
+.buttons-singles a{
+    color: black;
+    margin-right: 20px;
+}
+.single-pre {
+    margin: 70px 0;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.single-pre p:hover {
+    color: #ff6e65;
 }
 
+.comments .media-body .top span {
+    text-align: right;
+}
 .d-grid.grid-columns {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
-
+.media-body .top .name {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.media-body .top span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #707070;
+}
+.media-body .rep {
+    color: #0d369f;
+    text-decoration: none;
+    font-weight: 600;
+}
+.media-body .top 
 .blog-search .searchbtn {
 background-color: #0d369f;
 color: white;
@@ -95,10 +151,26 @@ border-top-left-radius: 0px;
  font-size: 22px;
  margin-bottom: 20px;
 }
+.categories a {
+    color: #877087;
+    transition: all 0.5s ease-out;
+}
+.categories a:hover {
+    color: #ff6e65;
+}
 .popular {
     border: 2px solid #eeeeee;
     padding: 20px;
     border-radius: 10px;
+}
+.popular h6 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.popular span {
+    font-size: 14px;
+    font-weight: 300;
 }
 .popular .title{
 font-size: 22px;
@@ -113,12 +185,19 @@ margin-bottom: 20px;
     border-radius: 10px;
 }
 .tags a {
-border: 2px solid #eeeeee;
-padding: 0 15px;
+border: 1px solid #eeeeee;
+padding: 3px 15px;
 margin-right:20px;
 border-radius: 16px;
 margin-top: 10px;
+text-decoration: none;
+color: black;
+transition: all 0.5s ease-out;
 }
-.tags abc {
-    margin-bottom: 100px;
+.tags a:hover {
+    background-color: #ff6e65;
+    color: white;
+}
+.tags .space {
+    margin: 20px 0;
 }
